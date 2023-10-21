@@ -10,7 +10,7 @@ import {
   Footer,
   Testimonials,
   Hero,
-} from './component'
+} from './components'
 //rafce
 const App = () => {
   return (
