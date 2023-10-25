@@ -20,9 +20,21 @@ const Billing = () => {
           Managing your company&apos;s finances has never been easier. With our
           cutting-edge billing and invoicing solutions, you can streamline your
           financial processes, track expenses, and improve cash flow. Take
-          control of your business&apos;s financial health and watch it thrive with
-          our intuitive tools and services.
+          control of your business&apos;s financial health and watch it thrive
+          with our intuitive tools and services.
         </p>
+        <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
+          <img
+            src={apple}
+            alt="apple-store"
+            className="w-[128px] h-[42px] object-contain mr-5 cursor-pointer"
+          ></img>
+          <img
+            src={google}
+            alt="google"
+            className="w-[128px] h-[42px] object-contain  cursor-pointer"
+          ></img>
+        </div>
 
         <h2 className={styles.heading2}>
           Easily control your <br className="sm:block hidden" /> billing &

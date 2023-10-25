@@ -44,9 +44,9 @@ const NavBar = () => {
                 className={`font-poppins font-normal cursor-pointer 
           text-[16px] text-white mr-10 ${
             index === navLinks.length - 1 ? "mb-0" : "mb-4"
-          }` }
+          }`}
               >
-                <a href={`#${nav.id}`} > {nav.title}</a>
+                <a href={`#${nav.id}`}> {nav.title}</a>
               </li>
             );
           })}
